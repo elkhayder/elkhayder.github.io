@@ -1,0 +1,96 @@
+@import url("FontAwesome/css/all.css"); /* FontAwesome Pro */
+@import url("fonts/AvantGardeStd/style.css"); /* Avant Garde STD font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap'); /* UBUNTU font */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: ;
+}
+
+body {
+    background: #343a40;
+    font-family: 'Ubuntu', sans-serif, monospace;
+    font-size: 24px;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#card {
+    width: 95%;
+    max-width: 350px;
+    /*min-height: 500px;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #212529;
+    background: #21252967;
+    border-radius: 20px;
+    padding: 30px 0px;
+}
+
+#card > img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#card > a {
+    text-decoration: none;
+    color: #f8f9fa;
+    margin: 10px;
+    border: 1px solid #f8f9fa;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 12px;
+    transition: .3s;
+}
+
+#card > a > i {
+    padding-right: 5px;
+}
+
+/* Facebook Button */
+
+#card > a.facebook-button {
+    border-color: #4267b2;
+}
+
+#card > a.facebook-button:hover {
+    background: #4267b2;
+}
+
+/* Github button */
+
+#card > a.github-button {
+    border-color: #7b7c7e;
+}
+
+#card > a.github-button:hover {
+    border-color: #24292e;
+    background-color: #24292e;
+}
+
+/* Instagram button */
+
+#card > a.instagram-button {
+    border-color: #d6249f;
+}
+
+#card > a.instagram-button:hover {
+    background: linear-gradient(90deg, #d6249f 0%,#285AEB 90%);
+}
