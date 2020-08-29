@@ -12,6 +12,7 @@ body {
     background: #343a40;
     font-family: 'Ubuntu', sans-serif, monospace;
     font-size: 24px;
+    user-select: none;
 }
 
 #particles-js {
